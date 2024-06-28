@@ -1,0 +1,389 @@
+
+PLEASE NOTE: The current version of ROLLING RONNY is a demonstration
+             version only. The level designs are not yet completed.
+             Only two (of the five planned) levels are ready to run in
+             this demo-version. The errands in this version (see "how
+             to play ROLLING RONNY) are just simple test-and-try samples.
+             We are still working on more sophisticated and tricky 
+             errands and jobs for Ronny. Only very few sound effects
+             could be implemented up to now. The difficulty level
+             has still to be corrected and adapted for the final version.
+             We are positive about finishing the game until Christmas 1990
+             or early (January/February) next year. But we are sure that
+             this game is going to be addictive and great fun to play!
+             
+                                                The TOUCH of MAGIC team.
+
+
+
+Ergänzung:	TastenBelegung:
+
+			- F1  : CheatMode (Keine Kollision, Steuerung geändert)
+			- 'S' : Geräusche Ein/Aus
+			- 'M' : Musik Ein/Aus
+			- ' ' : Pause (jederzeit), weiter mit Feuer (JoyStick)
+		
+			Levels:
+
+			- 1 : Stadt			(Level 1)
+			- 2 : Untergrund
+			- 3 : Stadt			(Level 2)
+			- 4 : Büro
+			- 5 : Park			(Level 3)
+			- 6 : Nacht
+		
+			
+												René
+
+
+
+******************** Some Features of ROLLING RONNY *******************
+
+- Each level features more than 300 animated, "intelligent", moving
+  objects.
+
+- Each object is animated with 12 frames per second (standard frame
+  rate of Walt Disney Studio (TM) film animations). 
+
+- High-quality background scrolling with 50 screen refreshments per
+  second. 
+
+- Three dimensional four level scrolling.
+
+- More than 100 colours on screen simultaneously.
+
+- More than 1000 animated object frames in 32 colours.
+
+- Lots of action with up to 16 objects on screen simultaneously.
+
+- Several stereo background songs.
+
+- Funny sound-effects with RDC (Realistic Dynamic Control: The intensity
+  and pitch of each sound is computed and performed in relation to the
+  distance and velocity of the objects to each other and to RONNY).
+
+- At least five levels with various animated objects and background
+  designs.
+
+- Strategy features like special missions, bonus gadgets, shops to
+  improve the hero's equipment, etc.
+
+- Colourful cute little show between the various levels.
+
+- More than 800 Kbytes Intro-Show explaining the background story to
+  the game in animated film like scenes.(not yet implemented)
+
+- Continue Game option allows you to save the game after a completed
+  level and to access and continue the next level directly from the
+  start menu.(not yet implemented)
+
+
+
+
+                               How to Play
+
+***************************** ROLLING RONNY ****************************        
+
+
+The World of Rolling Ronny:
+---------------------------
+     Ronny is a clever and smart English errand boy who is never seen
+     on an errand without his roller-skates allowing him to move
+     very quickly through the streets of his town.
+
+     Little Ronny has to run the errand of his life. A man from
+     Scottland Yard promised him a huge reward and a ticket to the
+     next roller-skating championships for delivering an outstandingly
+     important and top secret message at 210, Humpty Street at the other
+     end of the town. 
+     But this job is going to be a hell of a crux, and Ronny has to get
+     there at his own expenses and risks. There are buses to catch and many
+     obstacles to surmount, requireing an excessive deal of strategy,
+     wit, and skill. 
+
+     Ronny never goes on his errands without a couple of bags of home-made
+     peppermint-flavoured marshmallows with garlic icing. The particular
+     fragrance (ignorant people may call it "stench") of this specialty is
+     effective indeed!!!
+     That's why Ronny shoots it at all the objects he wants to get out
+     of his way. To make use of these "lethal sweets" just press the
+     fire button on your joystick. However, the marshmallows have no
+     effect on pedestrians and some other moving objects which are used
+     to English eating habits. 
+
+     The levels and its inhabitants are "genuine imitations" of an
+     English town and of prototypical English people and thingumbobs.
+     So, regardless wether you are carrying out love letters or wether
+     you are about to run away from the police or from a weird table lamp  
+     shooting bulbs after you, never forget to say "please", mind your
+     pronunciation and attitudes, and try to get used to the English
+     sense of humor. 
+     Have fun and enjoy the crazy world of ROLLING RONNY!
+
+
+
+Getting Around:
+---------------
+                        Joystick movements
+                        ------------------
+
+              Jump left        Jump        Jump right
+                            (Climb up)
+         
+
+             Skate left     Fire=Shoot     Skate right
+
+   
+                           (Climb down)    
+                   Duck        Duck        Duck
+
+
+     You generally can skate on all smooth and plain surfaces in-
+     cluding railtracks, window sills, breast walls, etc.
+    
+     Avoid touching grassy ground, puddles or water, and beware of
+     pitfalls and all moving obstacles (including pedestrians).
+
+     Tumbling is caused by unfit ground, pitfalls or collisions
+     with some moving objects. A balloon will appear each time you
+     tumbled, carrying you up in the air. While floating, you can
+     move Ronny backwards out of the dangerous area onto safe ground.
+    
+     When near a ladder, the upward and downward movements of the
+     joystick make Ronny - instead of jumping and ducking - climb up
+     or down the ladder.
+  
+
+Text Windows:
+-------------
+     In certain situations a text window pops up on the screen and
+     the game action will be paused. These windows are the means by
+     which you can have Ronny communicate with the characters of the
+     Game and make stratetic decisions. The highlighted text indicates
+     the action which you will perform by pressing the fire button on
+     the joystick. When several options are available, highlight the
+     option of your choice by moving the joystick up or down and then
+     press the fire button. 
+
+
+Money:
+------
+     Try to get as much money as you possibly can (it's quite like in
+     real life, isn't it?). Besides the money you get with your errands
+     there is always the possibility to collect the coins people lost in
+     the streets.
+
+     At the end of each level you will have to buy a ticket at the bus
+     stop and take the bus to the next level. Make sure to dispose of
+     enough money when arriving at the bus stop. The average fare is about
+     110 pence. These tickets are expensive! But Ronny would never make
+     it to his destination without the help of public transportation. 
+
+     Each penny of the money remaining after having purchased your ticket
+     at the end of each Level will be transformed into 500 points on
+     your score. 
+
+     Ronny usually offers his seat to elderly women in crowded buses.
+     That is why he leaves the bus with a nice tip of ten cents at the
+     beginning of each new level. 
+
+
+Errands:
+--------
+     From time to time (most likely in front of house entrances or when
+     facing pedestrians) you will be offered an errand. 
+     Just touch the glass bobbles with the rotating sign inside reading
+     "J O B" whenever you happen to come across them. This then offers
+     you the possibility to accept a job and earn a good deal of money.
+
+     The conditions and terms of delivery and payment, as well as the
+     destination address, will be displayed in the window that pops up.
+     Some errands will bring you generous tips, and promise a load of
+     bonus points.
+     Decide very carefully whether you want to accept the job or not!
+     You certainly are in need of money for your bus ticket, but on
+     the other hand, each going on an errand can severely endanger your
+     health and energy supply...
+
+     When offered an errand, you generally have three options:   
+                    
+          - Accepting the errand on suggested terms.
+
+          - Bargaining and trying to raise the amount of money offered
+            for the suggested errand.
+
+          - Rejecting the errand.
+
+     You have the possibility to bargain as often as you like. But don't
+     push your luck too hard! The customers may get tired of your bar-
+     gaining and lower their offer or quit business with you once and
+     for all. 
+
+     When you finally accept the terms for an errand, the item which
+     you have to deliver is handed over to you and appears in the panel
+     display (F1-F4) at the bottom of your screen. Pressing the according
+     F-key lets pop up a window reminding you again of the terms for this
+     particular errand.(not yet implemented)
+
+     You can go (or rather skate) on several errands simultaneously. But
+     you can't carry more than four items (including gadgets) at the same
+     time.
+
+     Having successfully delivered an item at its destination, another
+     window pops up containing the receivers comment and the money and
+     the bonus points for this particular errand will both be added up
+     to the total.
+
+     Each completed errand is worth a certain amount of points. The total
+     of this points is shown in the BONUS display in the panel. As soon
+     as an errand is completed successfully the points are added up to
+     the score.(not yet implemented)
+
+
+Cubes:
+------
+     Each rotating little cube collected is worth 50 points.
+
+     You positively absolutly must collect all but three cubes in each
+     level to be able to proceed to the next level. Choose very carefully
+     the three cubes you do NOT want to collect, because you have
+     to pick up all the other cubes!
+
+     Each of the five optional cubes collected is worth 300 points. 
+     Collecting all the cubes in a level (including the three optional
+     cubes) will be rewarded with 3000 points extra.
+
+
+Shooting:
+---------
+     Each shot with a marshmallow will cost you some energy. You can shoot
+     most (but not all) of the moving objects to get them out of your way
+     except for people and domestic animals (is a monkey on a skateboard
+     considered a domestic animal?). The number of shots is not limited,
+     but watch your energy level! You can't release shots when on a
+     ladder or while ducking. Most of the moving objects require more
+     than one hit to get them out of your way.
+
+
+Energy:
+-------
+     Skating around will decrease your energy minimally, while climbing
+     ladders, jumping and shooting will consume more energy.
+
+     Touching an energy ball or purchasing energy supplying items in
+     a shop will increase your energy level immediately.
+
+
+Health:
+-------
+     The following actions will make you tumble and thus cost you some
+     health:
+
+          - falling into ditches and pits
+
+          - severe collisions with obstacles and moving objects
+
+          - touching ground or surface unfit for roller-skates
+            (grass, water, pebbles, puddles etc.)
+
+     Catching a health ball or buying health supplying items in a shop
+     will increase your health level at once.
+
+
+Shops:
+------
+     When touching a shop sign a text window will pop up displaying all
+     the items and gadgets offered in this shop including their prices.
+     Select an item to purchase or exit the menue. When you buy a health
+     or energy supplying item you will immediately profit from its effect.
+
+
+Gadgets:
+--------
+     Some shops offer gadgets to improve your equipment. Occasionally
+     you may also find a gadget in the street. You can't carry more than
+     four of them (including items to be delivered).
+     
+     There are situations where the use of such a gadget can prevent
+     you from severe loss of health or energy. 
+
+     When you find yourself in a particularly difficult situation, think
+     very carefully about the effect of the gadget before you use it. 
+
+     The following gadgets are available:
+
+          - Superjump: lets you perform consecutively three jumps about
+                       three times higher and longer than a regular jump.
+                       4 pence each.
+
+          - Megahonk : neglects collisions for 5 seconds during which
+                       Ronny is flickering. 3 pence each.
+
+          - Magnetofluct: collects all bonus items on current screen
+                          (health and energy balls, rotating cubes and
+                          questionmarks, coins) and lets you profit from
+                          their effect. 3 pence each.
+
+          - Stenchalizer: paralizes all moving objects on current screen
+                          for some seconds. 2 pence each.
+     
+          - Powersneeze: makes disappear all dangerous objects on current
+                         screen (not the bonus items). 5 pence each.
+            
+
+     To activate a gadget, press the corresponding F-key. The gadget is 
+     in use as soon as it disappears from the item display in the panel.
+
+
+Surprise:
+---------
+     The rotating red question-marks reveal their surprising effect
+     as soon as you touch them. They can positively affect your money,
+     health or energy. But not quite all question-marks are friendly!
+     (That is what surprises are all about, is it not?)
+
+
+Lost Properties:
+----------------
+     A bubbling exclamation-mark stands for lost property. Pick it up,
+     return it to the address displayed in the window which will appear,
+     and you may get a bulk of points on your score and a fine reward
+     from the owner ... hopefully. However you are not fined in case
+     you are not able to return the lost property to its owner.(not yet
+     implemented)
+
+
+Game Over:
+----------
+     The game is over when
+
+          - you are not healthy enough to carry on your errands (watch
+            the health level display).
+
+          - you are out of power and lack the energy to move on (watch
+            the energy level display).
+
+          - you spoiled too many of your errands or were not able to
+            pick up enough coins in the street and are thus short of the
+            110 cents which you need in order to purchase a bus ticket
+            to the next level.
+
+          - you could not collect all but three cubes of the current
+            level.
+
+
+Saving the Game:
+----------------
+     At the end of each level, after having entered the bus, you have
+     the possibility to relax and save the current game and score.
+     The CONTINUE GAME option in the main menue then allows you to
+     directly access, load and continue a previously saved game.
+
+
+Music and Sound:
+----------------
+     Press the M key to stop and start the music, press the S key to
+     stop and start the sound effects.
+
+
+

@@ -1,0 +1,3 @@
+echo "Copying Ronny to SyQuest"
+copy ** sq0:dh2/projects/rollingronny all
+echo "Backup completed....:"

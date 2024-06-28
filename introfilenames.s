@@ -1,0 +1,6 @@
+
+		SECTION	FileNames,DATA
+
+		XDEF	FN_BACKGROUND
+
+FN_BACKGROUND:	dc.b	"Titel",0

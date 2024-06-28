@@ -1,0 +1,27 @@
+* Header file generated on Thursday 06-Oct-1994 15:32:49 by Bobi 2.99q (Aug  2 1992)
+Wegmarkierung:	EQU	0
+YouAreHere:	EQU	30
+AndNowYouAreHereO: EQU	956
+AndThisIsR:	EQU	1990
+Bobble1:	EQU	2952
+Bobble2:	EQU	3086
+Bobble3:	EQU	3304
+Bobble4:	EQU	3954
+Bobble5:	EQU	5384
+Bobble6:	EQU	7906
+GameOver:	EQU	14904
+A1:		EQU	18350
+S1:		EQU	20656
+S2:		EQU	20922
+S3:		EQU	21128
+S4:		EQU	21394
+S5:		EQU	21660
+A2:		EQU	21926
+BNoCubes:	EQU	22832
+BNoMoney:	EQU	23958
+ANoEnergy:	EQU	25304
+A3:		EQU	27630
+Bob29:		EQU	29956
+Bob30:		EQU	29986
+
+Bob_FILESIZE:	EQU	30020

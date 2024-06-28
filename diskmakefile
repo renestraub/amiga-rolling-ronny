@@ -1,0 +1,62 @@
+#Test Diskmakefile, 20-May-89
+
+!B 1 6144              ; Ab Track 1
+!P 19550               ; Product-Code 
+!D 1                   ; Disk Nummer 1
+!F DosFilenames.o      ; Name des generierten Assembler-Files
+!N "Rolling Ronny"     ; Name der Diskette
+!0 Track0              ; Name des Files für Track 0
+
+exec:MainPrg
+sound/Song
+#gfx/StarByte
+#gfx/Presents
+#gfx/Label
+
+gfx/RonnyBob
+gfx/ImmerBobs
+gfx/Cloud1
+gfx/Cloud2
+gfx/Cloud3
+gfx/Neon1
+gfx/Neon2
+gfx/Neon3
+gfx/Stein1
+gfx/Stein2
+gfx/Stein3
+gfx/Font
+gfx/PanelFont
+gfx/Panel
+sound/SoundFX
+#gfx/By
+#gfx/Titel
+gfx/Menu
+
+gfx/Level2Bob
+gfx/Levels/Char2
+gfx/Levels/Level2
+
+gfx/Level1Bob
+gfx/Levels/Char1
+gfx/Levels/Level1
+
+gfx/Level3Bob
+gfx/Levels/Level3
+
+gfx/Level4Bob
+gfx/Levels/Char4
+gfx/Levels/Level4
+
+gfx/Level5Bob
+gfx/Levels/Char5
+gfx/Levels/Level5
+
+gfx/Levels/Level6
+gfx/Levels/Level7
+
+gfx/HiScore
+gfx/HowToPlay
+gfx/HowToPlay2
+gfx/Karte
+gfx/KarteBobs
+gfx/Bus

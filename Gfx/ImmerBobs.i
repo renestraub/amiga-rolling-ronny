@@ -1,0 +1,203 @@
+* Header file generated on Wednesday 27-Feb-1991 11:41:29 by Bobi V2.99e
+
+BonusBob1:	EQU	0
+GrundBobs1:	EQU	206
+GrundBobs2:	EQU	412
+GrundBobs3:	EQU	618
+GrundBobs4:	EQU	824
+GrundBobs5:	EQU	1000
+GrundBobs6:	EQU	1146
+GrundBobs7:	EQU	1322
+GrundBobs8:	EQU	1498
+GrundBobs9:	EQU	1674
+GrundBobs10:	EQU	1820
+GrundBobs11:	EQU	1996
+GrundBobs12:	EQU	2172
+GrundBobs13:	EQU	2348
+GrundBobs14:	EQU	2524
+GrundBobs15:	EQU	2700
+GrundBobs16:	EQU	2876
+GrundBobs17:	EQU	3052
+GrundBobs18:	EQU	3228
+GrundBobs19:	EQU	3404
+
+BonusBob3:	EQU	3610
+GrundBobs35:	EQU	3828
+GrundBobs36:	EQU	4046
+GrundBobs37:	EQU	4264
+GrundBobs38:	EQU	4482
+GrundBobs39:	EQU	4700
+GrundBobs40:	EQU	4918
+EnergyBob:	EQU	5136
+GrundBobs42:	EQU	5354
+GrundBobs43:	EQU	5572
+GrundBobs44:	EQU	5790
+GrundBobs45:	EQU	6008
+GrundBobs46:	EQU	6226
+GrundBobs47:	EQU	6444
+GrundBobs48:	EQU	6662
+GrundBobs49:	EQU	6880
+
+WolkenBob:	EQU	7066
+BonusBob51:	EQU	7164
+GrundBobs52:	EQU	7274
+GrundBobs53:	EQU	7396
+GrundBobs54:	EQU	7530
+GrundBobs55:	EQU	7652
+GrundBobs56:	EQU	7828
+GrundBobs57:	EQU	8094
+GrundBobs58:	EQU	8336
+GrundBobs59:	EQU	8590
+GrundBobs60:	EQU	8844
+GrundBobs61:	EQU	9086
+GrundBobs62:	EQU	9262
+GrundBobs63:	EQU	9384
+
+KistenBob1:	EQU	9490
+GrundBobs65:	EQU	9526
+GrundBobs66:	EQU	9602
+GrundBobs67:	EQU	9658
+GrundBobs68:	EQU	9714
+
+KistenBob2:	EQU	9790
+GrundBobs70:	EQU	9826
+GrundBobs71:	EQU	9872
+GrundBobs72:	EQU	9918
+GrundBobs73:	EQU	9974
+
+KistenBob3:	EQU	10020
+GrundBobs75:	EQU	10056
+GrundBobs76:	EQU	10112
+GrundBobs77:	EQU	10158
+GrundBobs78:	EQU	10204
+
+KistenBob4:	EQU	10250
+GrundBobs80:	EQU	10296
+GrundBobs81:	EQU	10342
+GrundBobs82:	EQU	10428
+GrundBobs83:	EQU	10494
+
+CoinBob:	EQU	10530
+GrundBobs130:	EQU	10706
+GrundBobs131:	EQU	10882
+GrundBobs132:	EQU	11058
+GrundBobs133:	EQU	11234
+GrundBobs134:	EQU	11410
+GrundBobs135:	EQU	11586
+GrundBobs136:	EQU	11762
+GrundBobs137:	EQU	11938
+GrundBobs138:	EQU	12114
+
+FrageZeichen0:	EQU	12290
+FrageZeichen1:	EQU	12358
+FrageZeichen2:	EQU	12510
+FrageZeichen3:	EQU	12662
+FrageZeichen4:	EQU	12814
+FrageZeichen5:	EQU	12966
+FrageZeichen6:	EQU	13118
+FrageZeichen7:	EQU	13270
+FrageZeichen8:	EQU	13422
+FrageZeichen9:	EQU	13574
+FrageZeichen10:	EQU	13726
+FrageZeichen11:	EQU	13794
+FrageZeichen12:	EQU	13988
+FrageZeichen13:	EQU	14182
+FrageZeichen14:	EQU	14376
+FrageZeichen15:	EQU	14570
+FrageZeichen16:	EQU	14764
+FrageZeichen17:	EQU	14958
+FrageZeichen18:	EQU	15152
+FrageZeichen19:	EQU	15346
+
+ExplosionsBob:	EQU	15540
+GrundBobs176:	EQU	15616
+GrundBobs177:	EQU	15772
+GrundBobs178:	EQU	15978
+GrundBobs179:	EQU	16484
+GrundBobs180:	EQU	16990
+GrundBobs181:	EQU	17596
+GrundBobs182:	EQU	18262
+GrundBobs183:	EQU	18868
+GrundBobs184:	EQU	19414
+GrundBobs185:	EQU	20020
+GrundBobs186:	EQU	20586
+GrundBobs187:	EQU	21092
+GrundBobs188:	EQU	21618
+GrundBobs189:	EQU	22084
+GrundBobs190:	EQU	22510
+
+BallonBob:	EQU	22836
+HimmelBob2:	EQU	23066
+HimmelBob194:	EQU	23344
+HimmelBob195:	EQU	23946
+
+SternliBob:	EQU	24644
+Bob42:		EQU	25030
+Bob43:		EQU	25368
+Bob44:		EQU	25826
+Bob45:		EQU	26080
+Bob46:		EQU	26418
+Bob47:		EQU	26756
+Bob48:		EQU	27118
+Bob49:		EQU	27576
+
+HausNummer13Bob: EQU	28082
+
+HausNummer64Bob: EQU	28220
+
+ShopBob1:	EQU	28358
+
+JobBob1:	EQU	28720
+JobBob2:	EQU	28914
+JobBob3:	EQU	29060
+JobBob4:	EQU	29266
+JobBob5:	EQU	29364
+GadgetBob1:	EQU	29570
+GadgetBob2:	EQU	29788
+GadgetBob3:	EQU	30006
+GadgetBob4:	EQU	30152
+GadgetBob5:	EQU	30298
+
+GetJobBob:	EQU	30468
+GetJobBob1:	EQU	31262
+GetJobBob2:	EQU	32056
+GetJobBob3:	EQU	32850
+GetJobBob4:	EQU	33516
+GetJobBob5:	EQU	34310
+GetJobBob6:	EQU	35104
+GetJobBob7:	EQU	35898
+GetJobBob8:	EQU	36692
+GetJobBob9:	EQU	37486
+
+SchussBob:	EQU	37608
+SchussBob1:	EQU	37766
+SchussBob2:	EQU	37924
+SchussBob3:	EQU	38082
+SchussBob4:	EQU	38252
+SchussBob5:	EQU	38422
+SchussBob6:	EQU	38580
+SchussBob7:	EQU	38738
+
+JumpBob:	EQU	38872
+
+BombBob:	EQU	39018
+
+CheeseBob:	EQU	39224
+
+MagnetoBob:	EQU	39394
+
+HonkBob:	EQU	39528
+
+EmptyBob:	EQU	39734
+
+SandUhr0:	EQU	39764
+SandUhr1:	EQU	40090
+SandUhr2:	EQU	40416
+SandUhr3:	EQU	40742
+SandUhr4:	EQU	41068
+SandUhr5:	EQU	41394
+BusStop2:	EQU	41720
+BusStop1:	EQU	42154
+BusStop3:	EQU	43116
+
+GrundBobs_FILESIZE:	EQU	44402

@@ -1,0 +1,30 @@
+!B 1 6200              ; Ab Track 1
+!P 19550               ; Product-Code 
+!D 1                   ; Disk Nummer 1
+!F DosFilenames.o     ; Name des generierten Assembler-Files
+!N "Rolling Ronny Demo"   ; Name der Diskette
+!0 Track0              ; Name des Files für Track 0
+
+exec:MainPrg
+
+gfx/RonnyBob
+gfx/ImmerBobs
+gfx/Font
+gfx/PanelFont
+gfx/Panel
+HiNames
+
+gfx/Neon
+gfx/Menu
+
+gfx/Level4Bob
+gfx/Levels/Char4
+gfx/Levels/Level4
+
+gfx/HiScore
+gfx/HowToPlay
+gfx/HowToPlay2
+gfx/HowToPlay3
+
+sound/GameSong1
+sound/SoundFX

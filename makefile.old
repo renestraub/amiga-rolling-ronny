@@ -1,0 +1,128 @@
+#####################################################################
+#                                                                   #
+#   Makefile für Exec Test                                          #
+#                                                                   #
+#   Created: 18-May-89 CHW             Last update: 22-May-89 CHW   #
+#                                                                   #
+#####################################################################
+
+#### Allgemeine Flags:
+
+AFLAGS	= -ih: -l
+LFLAGS	= SMALLCODE SMALLDATA NOICONS
+DISKMODS  = Main.o Gfx.o Collision.o HiScore.o JoyStick.o SndPlayer.o\
+     	    Bobs1.o Bobs2.o Bobs3.o Bobs4.o Copper.o\
+	    Bobs5.o Bobs6.o Bobs7.o DosFileNamesI.o\
+  	    Bobs8.o Bobs9.o Disk.o ExecBase.o
+
+VMODS = Virgin.o
+
+MODS  = Main.o Gfx.o Collision.o HiScore.o JoyStick.o SndPlayer.o\
+	Bobs1.o Bobs2.o Bobs3.o Bobs4.o Copper.o\
+	Bobs5.o Bobs6.o Bobs7.o DosFileNames.o\
+	Bobs8.o Bobs9.o Disk.o ExecBase.o
+
+SMODS = SMain.o Gfx.o Collision.o JoyStick.o SndPlayer.o\
+	Bobs1.o Bobs2.o Bobs3.o Bobs4.o Copper.o\
+	Bobs5.o Bobs6.o Bobs7.o DosFileNames.o\
+	Bobs8.o Bobs9.o ExecBase.o HiScore.o
+
+DRIVE   = EXEC:
+DRIVE2  = RAM:
+BACKUP  = DH0:Ronny/
+ASM	= Genim2
+
+#### Regeln: 
+
+.S.o:
+	$(ASM) $*.S -o$*.o $(AFLAGS)
+;;	Copy   $*.S $(BACKUP)
+
+#### Programme:
+
+All:	Virgin Main
+
+Virgin:	$(VMODS)
+	BLink FROM $(VMODS) TO $(DRIVE2)$* $(LFLAGS)
+	SpecAbsLoad >NIL: -d -o$(DRIVE)Virgin $(DRIVE2)Virgin
+	Delete $(DRIVE2)Virgin
+	
+Main:	$(MODS)
+	BLink FROM $(MODS) TO $(DRIVE2)$* $(LFLAGS)
+	SpecAbsLoad >NIL: -d -o$(DRIVE)MainPrg $(DRIVE2)Main
+	Delete $(DRIVE2)Main
+
+SMain:	$(SMODS)
+	BLink FROM $(SMODS) TO $(DRIVE2)$* $(LFLAGS)
+	SpecAbsLoad >NIL: -d -o$(DRIVE)MainPrg $(DRIVE2)SMain
+	Delete $(DRIVE2)SMain
+
+DiskII:	$(DISKMODS)
+	BLink FROM $(DISKMODS) TO exec:main $(LFLAGS)
+	SpecAbsLoad >NIL: -d -oexec:mainprg exec:main
+	Delete exec:main
+
+Disk:	$(DISKMODS)
+	@copy dh1:exec/track0 .
+	@queue n
+	@DiskMaker df0: MAKEFILE DiskMakeFileI
+	@Make DiskII
+	@queue n
+	@DiskMaker df0: MAKEFILE DiskMakeFileI
+	@Make DiskII
+	@queue y
+	@queue n
+	@DiskMaker df0: MAKEFILE DiskMakeFileI VERIFY
+
+BigFile: $(DISKMODS)
+	@copy dh1:exec/track0 .
+	@queue n
+	@DiskMaker df0: MAKEFILE DiskMakeFileI
+	@Make DiskII
+	@queue n
+	@DiskMaker df0: MAKEFILE DiskMakeFileI
+	@Make DiskII
+	@DiskMaker TO BigFile MAKEFILE DiskMakeFileI NOCRUNCH
+
+
+DiskDemo:
+	@copy dh1:exec/track0 .
+	@queue n
+	@DiskMaker df0: MAKEFILE DemoDiskMakeFile
+	@Make
+	@queue n
+	@DiskMaker df0: MAKEFILE DemoDiskMakeFile
+	@Make
+	@queue y
+	@queue n
+	@DiskMaker df0: MAKEFILE DemoDiskMakeFile
+
+
+
+DiskII:	$(MODS)
+	BLink FROM $(DISKMODS) TO exec:main $(LFLAGS)
+	SpecAbsLoad >NIL: -d -oexec:mainprg exec:main
+	Delete exec:main
+
+SDisk:
+	@copy dh1:exec/track0 .
+	@queue n
+	@DiskMaker df0: MAKEFILE SDiskMakeFile
+	@Make
+	@crunch exec:mainprg NOSUFFIX
+	@ppcon exec:
+	@protect exec:mainprg +p
+	@queue n
+	@DiskMaker df0: MAKEFILE SDiskMakeFile
+	@Make
+	@crunch exec:mainprg NOSUFFIX
+	@ppcon exec:
+	@protect exec:mainprg +p
+	@queue y
+	@queue n
+	@DiskMaker df0: MAKEFILE SDiskMakeFile
+
+
+Ram:
+	touch dosfilenames.s
+	@Make

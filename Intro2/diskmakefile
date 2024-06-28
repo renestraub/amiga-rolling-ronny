@@ -1,0 +1,14 @@
+#Test Diskmakefile, 20-May-89
+
+!B 1 4544              ; Ab Track 1: Anzahl Bytes := 2000 (Tja, RAM und so)
+!P 16384               ; Product-Code 
+!D 1                   ; Disk Nummer 1
+!I Filenames.i         ; Name des generierten Assembler-Files
+!N "Ronny"             ; Name der Diskette
+!0 Track0              ; Name des Files für Track 0
+
+config.abs
+
+MainPrg
+Gfx/Background
+Sound/Song

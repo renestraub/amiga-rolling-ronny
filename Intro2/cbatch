@@ -1,0 +1,4 @@
+echo "Copying required Files to EXEC:"
+copy gfx/BackGround	EXEC:
+copy MainPrg		EXEC:
+echo "The End ...."
